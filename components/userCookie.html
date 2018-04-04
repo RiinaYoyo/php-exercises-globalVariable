@@ -1,0 +1,11 @@
+<div>
+    <h2>Show me your cookies</h2>
+    <select class="form-control" id="exampleFormControlSelect1">
+        <?php
+            foreach ($_COOKIE as $key) {?>
+            <option value='opt'><?php echo $key?></option>  
+        <?php 
+            } 
+        ?>
+    </select>
+</div>
