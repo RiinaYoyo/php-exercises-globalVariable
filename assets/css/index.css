@@ -1,0 +1,20 @@
+.info-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	margin:50px;
+}
+.info-text p{
+	text-align: center;
+}
+body{
+	font-size: 140%;
+}
+footer{
+	text-align: center;
+	background-color: #0069D9;
+	margin-top: 20px;
+	color: white;
+}
